@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>ssss</p>
+<form method="POST" id="tform" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" id="save" class="save btn btn-primary">追加</button>
+</form>
+{% for i in todo %}
+<img src="{{i.img.url}}">
+{% endfor %}
+</body>
+</html>

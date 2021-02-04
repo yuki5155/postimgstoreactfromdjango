@@ -1,0 +1,10 @@
+### Django ###
+
+*.log
+*.pot
+*.pyc
+__pycache__/
+.python-version
+.DS_Store
+db.sqlite3
+.idea
