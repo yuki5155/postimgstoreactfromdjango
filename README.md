@@ -5,6 +5,6 @@
 3. python manage.py migrate
 4. python manage.py runserver
 
-#React側
+# React側
 npm start
 
